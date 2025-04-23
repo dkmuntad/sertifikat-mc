@@ -43,8 +43,7 @@
 /* Button Download */
 #btn-download {
   display: flex;
-  position: absolute;
-  top: 0;
+  top: 10px;
 }
 
 /* Styling Gambar */
@@ -208,5 +207,4 @@ img.ttd {
   line-height: 90px;
   font-size: 90px;
 }
-
 
