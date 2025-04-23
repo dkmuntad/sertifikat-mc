@@ -149,7 +149,7 @@ document.querySelector('.rotate-card').addEventListener('click', function() {
       const urlParam = new URLSearchParams(window.location.search);
       const url = urlParam.get('id'); // Ambil parameter URL dari URL
       if (url) {
-        const fullUrl = `http://127.0.0.1:5500/?id=${url}`;
+        const fullUrl = `https://dkmuntad.github.io/sertifikat-mc/?id=${url}`;
         const qrcode = new QRCode(document.getElementById("qrcode"), {
           text: fullUrl,
           width: 128,  // Ukuran QR Code
