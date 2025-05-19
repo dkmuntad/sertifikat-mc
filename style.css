@@ -199,15 +199,15 @@ img.ttd2 {
 }
 
 .watermark-background::before {
-  content: "DUTA KAMPUS MERDEKA UNIVERSITAS TADULAKO";
+  content: "DUTA KAMPUS BERDAMPAK UNIVERSITAS TADULAKO";
   display: block;
   position: absolute;
   left: 50px;
-  top:250px;
+  top:200px;
   color: rgba(0, 0, 0, 0.015);
   transform: rotate(-3deg);
   white-space: wrap;
-  line-height: 90px;
-  font-size: 90px;
+  line-height: 80px;
+  font-size: 80px;
 }
 
